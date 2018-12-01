@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MadLibz</string>
+    <string name="welcome_text">Welcome to MadLibs, fill out the information in the boxes to create
+        your own story! Press the "Next" button to continue.</string>
+    <string name="character_name_hint">Name your character!</string>
+    <string name="profession_text">Great! Now, give your character a profession, it can be something
+        serious like a "Chef" or even something wacky like "King of Donuts"!</string>
+    <string name="profession_hint">Choose a profession!</string>
+    <string name="favourite_text">Hunting, running,fishing or how about knitting? What\'s your
+        characters\' favourite thing to do? </string>
+    <string name="favourite_hint">Favourite thing to do?</string>
+    <string name="tool_text">Fight! Enter your characters favourite tool to use.</string>
+    <string name="tool_hint">Enter your tool!</string>
+    <string name="delicious_text">Cake,pie,cookies or even ice-cream! Enter something delicious!</string>
+    <string name="delicious_hint">Enter something Delicious!</string>
+    <string name="villain_text">This story needs a villain! Name one now!</string>
+    <string name="villain_hint">Name your villain!</string>
+    <string name="reward_text">And finally, a reward! Add one now! </string>
+    <string name="reward_hint">Add a reward!</string>
+    <string name="story_creation">One day, the Warrior Shannon was traveling through the countryside
+        eating a Rice Crispie Treat when suddenly, a Dragon came out to attack the local farmers!
+        Shannon jumped to the rescue to Fight with the Warrior\'s favorite weapon, the Battle Axe!
+        Once the Dragon was defeated, it exploded into a giant pile of Gold Bars! The End!</string>
+    <string name="before_profession">Once upon a time a </string>
+    <string name="before_name">by the name of</string>
+    <string name="before_something_delicious">was riding a dragon while eating some tasty </string>
+</resources>

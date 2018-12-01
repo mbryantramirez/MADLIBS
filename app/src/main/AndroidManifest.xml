@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.pursuit.madlibz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CharacterProfession"
+            android:label="Character Profession"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.madlibz.MainActivity" />
+        </activity>
+
+        <activity android:name=".CharacterFavourite"
+            android:label="Character Favourite"
+            android:parentActivityName=".CharacterProfession">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="org.pursuit.madlibz.CharacterProfession" />
+        </activity>
+
+        <activity android:name=".FavouriteTool"
+            android:label="Favourite Tool"
+            android:parentActivityName=".CharacterFavourite">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="org.pursuit.madlibz.CharacterFavourite" />
+        </activity>
+
+        <activity android:name=".SomethingDelicious"
+            android:label="A Delicious Something"
+            android:parentActivityName=".FavouriteTool">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="org.pursuit.madlibz.FavouriteTool" />
+
+        </activity>
+        <activity android:name=".VillainType"
+            android:label="Character Villain Type"
+            android:parentActivityName=".SomethingDelicious">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="org.pursuit.madlibz.SomethingDelicious" />
+        </activity>
+
+        <activity android:name=".Reward"
+            android:label="Character Reward"
+            android:parentActivityName=".VillainType">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="org.pursuit.madlibz.VillainType" />
+        </activity>
+
+        <activity android:name=".CreateStory"
+            android:label="Your Story!"
+            android:parentActivityName=".Reward">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.madlibz.Reward" />
+
+        </activity>
+    </application>
+
+</manifest>
